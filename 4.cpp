@@ -1,15 +1,12 @@
-//BMI è®¡ç®—
-#include<iostream>
-
+//½«×Ö·û×ª»¯Îª ASCII ±àÂë
+#include "iostream"
 int main(){
     using namespace std;
-    float height,weight;
-    cout << "è¾“å…¥ä½ çš„èº«é«˜(m)ï¼š";
-    cin >> height;
-    cout << "è¾“å…¥ä½ çš„ä½“é‡(kg)ï¼›";
-    cin >> weight;
-    float BMI;
-    BMI = weight / height / height;
-    cout << "ä½ çš„ BMI æ˜¯ï¼š" << BMI;
+    unsigned char ch;
+    cout << "ÊäÈë×Ö·û£º" << endl;
+    cin >> ch;
+    int i;
+    i = ch;
+    cout << ch << " µÄ ASCII ÂëÊÇ " << i;
     return 0;
 }

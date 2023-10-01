@@ -1,4 +1,4 @@
-//将 ASCII 转化为字符（使用强制类型转换）
+//将 ASCII 转化为字符
 #include<iostream>
 
 int main(){
