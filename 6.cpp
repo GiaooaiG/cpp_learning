@@ -1,15 +1,15 @@
-//BMI è®¡ç®—
+//BMI ¼ÆËã
 #include<iostream>
 
 int main(){
     using namespace std;
     float height,weight;
-    cout << "è¾“å…¥ä½ çš„èº«é«˜(m)ï¼š";
+    cout << "ÊäÈëÄãµÄÉí¸ß(m)£º";
     cin >> height;
-    cout << "è¾“å…¥ä½ çš„ä½“é‡(kg)ï¼›";
+    cout << "ÊäÈëÄãµÄÌåÖØ(kg)£»";
     cin >> weight;
     float BMI;
     BMI = weight / height / height;
-    cout << "ä½ çš„ BMI æ˜¯ï¼š" << BMI;
+    cout << "ÄãµÄ BMI ÊÇ£º" << BMI;
     return 0;
 }
